@@ -1,0 +1,40 @@
+BYTE NDT — B014 TRUE TWIN — BRIEF FABIAN
+
+FR
+Le démonstrateur constitue le Point 0 de la méthode Twin:
+DATA → BUILD → EVIDENCE → ENGINEERING.
+
+Le Twin reconstruit le contrôle depuis la géométrie Fusion:
+41 positions, sonde PA 2D 8×8, wedge 55° SW, sectoriel 35–70°,
+skew −10…+10°, 3485 lois focales, scan encodé, cartographie globale,
+détection, TFM, voxel, décision, rapport et outputs hardware.
+
+La lecture technicien reprend une convention de sensibilité:
+EDM de référence 3 mm = 50% FSH.
+La détection aveugle reste indépendante de cette vérité mécanique.
+
+Le rapport est construit en ligne à partir du même contexte Twin.
+Le Twin produit aussi les données pour le futur réglage/interface hardware:
+positions, orientations, parcours/TOF, sector/skew et délais 64 éléments.
+
+Le Machine Learning n'est pas utilisé pour fabriquer le résultat actuel.
+Le Twin crée en revanche le contexte de données nécessaire à un futur ML validé.
+
+EN
+The demonstrator is Point 0 of the Twin method:
+DATA → BUILD → EVIDENCE → ENGINEERING.
+
+The Twin rebuilds the inspection from Fusion geometry:
+41 positions, 8×8 2D PA, 55° SW wedge, 35–70° sectorial,
+−10…+10° skew, 3485 focal laws, encoded scan, global cartography,
+detection, TFM, voxel, decision, report and hardware-facing outputs.
+
+Technician readability uses the sensitivity convention:
+reference 3 mm EDM = 50% FSH.
+Blind detection remains independent from mechanical truth.
+
+The report is built online from the same Twin context.
+The Twin also produces the engineering data required for later hardware setup.
+
+Machine learning is not used to manufacture the current result.
+The Twin creates the contextual dataset required for future validated ML.

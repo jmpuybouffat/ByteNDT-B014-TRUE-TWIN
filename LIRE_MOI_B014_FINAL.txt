@@ -1,0 +1,25 @@
+BYTE NDT — B014 TRUE TWIN — FINAL STREAMLIT READY
+
+Même B014. Aucune B015.
+
+Corrections ajoutées:
+- cartographie globale type CIVA générée par le Twin;
+- sensibilité numérique technicien: EDM de référence 3 mm = 50 % FSH;
+- indications EDM détectées superposées avec %FSH;
+- cartographie globale 3D;
+- Indication Explorer conserve tir, sectoriel, skew, range, dB, %FSH;
+- rapport Living Engineering présenté comme construit en ligne;
+- données de transfert hardware produites par position;
+- export des 3485 lois focales et délais des 64 éléments;
+- explication Point 0 de la méthode Twin / Living Engineering;
+- explication Machine Learning possible, sans ML dans la décision actuelle;
+- vidéo finale enrichie avec la cartographie globale %FSH.
+
+IMPORTANT:
+La détection aveugle reste indépendante de la vérité EDM.
+Le 50 % FSH est appliqué après détection comme convention de sensibilité
+pour la lecture technicien et le reporting.
+
+Lancer localement:
+RUN_B014_FINAL.bat
+http://localhost:8507

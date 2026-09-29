@@ -1,0 +1,15 @@
+STREAMLIT CLOUD — DATA CHECKLIST
+
+Before GitHub / Streamlit deployment, the repository must contain the frozen inputs:
+1. ByteNDT_B009_FUSION_REFERENCE_BLADE_WOODENBLOCK.stl
+2. ByteNDT_B009_CENTRAL_BLADE_ROOT.stl (optional display fallback)
+3. ByteNDT_C1_PA_INTRADOS_PATH_20260926_180325.csv
+4. ByteNDT_C1_GROOVE_EXTRADOS_TARGET_20260926_180325.csv
+5. EDM_TUMELO_MASTER_VALIDATED.csv
+6. B001 focal-law reference if used for registration:
+   ByteNDT_C1_FOCAL_LAWS_8x8_B001.csv
+
+Recommended repository folder:
+data/B009/
+
+Do not deploy a cloud version that depends only on local D:\... paths.
