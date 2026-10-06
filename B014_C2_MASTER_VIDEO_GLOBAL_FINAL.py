@@ -1621,8 +1621,15 @@ def make_overview_scene(mesh_v,mesh_f,pa,target,clusters,truth):
         ))
     fig.update_layout(
         height=720,title="Twin overview — geometry → trajectory → acoustic paths → blind indications",
-        margin=dict(l=0,r=0,t=55,b=0),scene=dict(xaxis_title="X [mm]",yaxis_title="Y [mm]",zaxis_title="Z [mm]",aspectmode="data",
-        camera=dict(eye=dict(x=1.45,y=1.55,z=.95))),legend=dict(orientation="h",y=1.02)
+        margin=dict(l=0, r=0, t=55, b=0),
+        scene=dict(
+            xaxis_title="X [mm]",
+            yaxis_title="Y [mm]",
+            zaxis_title="Z [mm]",
+            aspectmode="data",
+            camera=dict(eye=dict(x=-1.45, y=-1.55, z=.95)),
+        ),
+        legend=dict(orientation="h", y=1.02),
     )
     return fig
 
