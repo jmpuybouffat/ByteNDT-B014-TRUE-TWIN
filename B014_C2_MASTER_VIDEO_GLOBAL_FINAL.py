@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-APP_TITLE = "Byte NDT — B014 TRUE TWIN — FACE 2 — Fusion 3D Scan + Progressive Blind Detection"
+APP_TITLE = "Byte NDT — B014 TRUE TWIN — C2 — INTRADOS → EXTRADOS — 199 POSITIONS — 6 EDM"
 
 REPO = Path(__file__).resolve().parent
 DOWNLOADS = Path.home() / "Downloads"
