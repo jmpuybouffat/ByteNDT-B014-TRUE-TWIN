@@ -2134,7 +2134,7 @@ with st.spinner("TRUE TWIN: Fusion geometry → PA2 encoded positions → UT res
 mesh_v = mesh_f = None
 try:
     mesh_v, mesh_f = read_stl_mesh(str(stl_display), FUSION_ASSEMBLY_SCALE)
-    mesh_v = (FUSION_ASSEMBLY_R @ mesh_v.T).T + FUSION_ASSEMBLY_T
+   
 except Exception as exc:
     st.warning(f"Fusion STL display unavailable / affichage STL indisponible: {exc}")
 
