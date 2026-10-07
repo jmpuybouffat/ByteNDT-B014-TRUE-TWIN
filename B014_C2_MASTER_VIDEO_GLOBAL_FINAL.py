@@ -1588,19 +1588,7 @@ def make_voxel_figure(result, edm_id, threshold_db=-6.0):
 def make_overview_scene(mesh_v,mesh_f,pa,target,clusters,truth):
     import plotly.graph_objects as go
     fig=go.Figure()
-    pa = (FUSION_ASSEMBLY_R.T @ (pa - FUSION_ASSEMBLY_T).T).T
-    target = (FUSION_ASSEMBLY_R.T @ (target - FUSION_ASSEMBLY_T).T).T
-        if clusters is not None and not clusters.empty:
-        clusters = clusters.copy()
-        _p = clusters[["x_mm", "y_mm", "z_mm"]].to_numpy(float)
-        _p = (FUSION_ASSEMBLY_R.T @ (_p - FUSION_ASSEMBLY_T).T).T
-        clusters[["x_mm", "y_mm", "z_mm"]] = _p
-
-    if truth is not None and not truth.empty:
-        truth = truth.copy()
-        _p = truth[["truth_X_mm", "truth_Y_mm", "truth_Z_mm"]].to_numpy(float)
-        _p = (FUSION_ASSEMBLY_R.T @ (_p - FUSION_ASSEMBLY_T).T).T
-        truth[["truth_X_mm", "truth_Y_mm", "truth_Z_mm"]] = _p
+   
     if mesh_v is not None and mesh_f is not None:
         fig.add_trace(go.Mesh3d(
             x=mesh_v[:,0],y=mesh_v[:,1],z=mesh_v[:,2],
