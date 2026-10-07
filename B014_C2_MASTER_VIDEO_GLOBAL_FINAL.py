@@ -1627,7 +1627,7 @@ def make_overview_scene(mesh_v,mesh_f,pa,target,clusters,truth):
             yaxis_title="Y [mm]",
             zaxis_title="Z [mm]",
             aspectmode="data",
-            camera=dict(eye=dict(x=-1.45, y=-1.55, z=.95)),
+            camera=dict(eye=dict(x=-1.45, y=1.55, z=.95)),
         ),
         legend=dict(orientation="h", y=1.02),
     )
