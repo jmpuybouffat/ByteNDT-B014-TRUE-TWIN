@@ -1588,7 +1588,19 @@ def make_voxel_figure(result, edm_id, threshold_db=-6.0):
 def make_overview_scene(mesh_v,mesh_f,pa,target,clusters,truth):
     import plotly.graph_objects as go
     fig=go.Figure()
-   
+       # C2 OVERVIEW ONLY - inversion Z
+    pa = pa.copy()
+    target = target.copy()
+    pa[:, 2] *= -1
+    target[:, 2] *= -1
+
+    if clusters is not None and not clusters.empty:
+        clusters = clusters.copy()
+        clusters["z_mm"] *= -1
+
+    if truth is not None and not truth.empty:
+        truth = truth.copy()
+        truth["truth_Z_mm"] *= -1
     if mesh_v is not None and mesh_f is not None:
         fig.add_trace(go.Mesh3d(
             x=mesh_v[:,0],y=mesh_v[:,1],z=mesh_v[:,2],
