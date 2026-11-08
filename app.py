@@ -9,7 +9,7 @@ st.set_page_config(page_title='BYTE NDT — LSB941 C1 — FR / EN', layout='wide
 def publication_document(asset_version: tuple) -> str:
     return build_publication_document()
 
-st.caption('BYTE NDT · LSB941-C1 · EXTRADOS → INTRADOS · 41 positions · FR / EN')
+st.caption('BYTE NDT · LSB941-C1 · INTRADOS → EXTRADOS · 41 positions · FR / EN')
 assets_root = Path(__file__).resolve().parent / 'assets'
 asset_version = tuple((f.name, f.stat().st_mtime_ns, f.stat().st_size) for f in sorted(assets_root.iterdir()) if f.is_file())
 

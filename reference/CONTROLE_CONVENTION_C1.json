@@ -1,0 +1,22 @@
+{
+  "C1": "INTRADOS -> EXTRADOS",
+  "C1_positions": 41,
+  "C1_EDM": 5,
+  "C2_distinct_convention": "EXTRADOS -> INTRADOS",
+  "numeric_source_arrays_unchanged": [
+    "D",
+    "ANALYSIS",
+    "OPERATOR",
+    "DATA"
+  ],
+  "target_curve": "original acoustic target coordinates; not asserted to be a surface contour",
+  "visible_curve_depth_test": true,
+  "occluded_curve": "dashed, translucent",
+  "root_opaque": true,
+  "browser_standalone_views": [
+    "TFM",
+    "voxel",
+    "report"
+  ],
+  "fracture_assessment": "pending"
+}
