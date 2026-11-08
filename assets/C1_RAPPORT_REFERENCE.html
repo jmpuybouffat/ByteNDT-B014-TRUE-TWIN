@@ -1,0 +1,142 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Byte NDT B014 TRUE TWIN</title>
+<style>
+body{font-family:Arial,sans-serif;margin:35px;color:#1f2937;line-height:1.45}
+h1,h2,h3{color:#0f3c5f} .hero{padding:18px;border-left:6px solid #2eae55;background:#f3f8f5;margin:16px 0}
+.kpi{display:inline-block;margin:7px;padding:11px 16px;border:1px solid #ddd;border-radius:8px;background:#fafafa}
+.chain{font-weight:700;font-size:18px;letter-spacing:.03em;padding:12px 0}
+table{border-collapse:collapse;width:100%;margin-top:15px} th,td{border:1px solid #ddd;padding:7px;font-size:12px}
+.note{background:#fff8e7;padding:12px;border-left:4px solid #e3a31a}
+</style></head><body>
+<h1>Byte NDT — B014 TRUE TWIN — Living Inspection Engineering</h1>
+<div class="hero"><b>Inspection does not begin with the probe. It begins with the data.</b><br>
+FR — Le Twin relie les données d'entrée, l'environnement réel, les actions physiques de contrôle et les résultats dans un même contexte numérique.<br>
+EN — The Twin connects input data, the real environment, physical inspection actions and results within one digital context.</div>
+<div class="chain">DATA → BUILD → EVIDENCE → ENGINEERING</div>
+<h2>Inspection configuration / Configuration de contrôle</h2>
+<div class="kpi"><b>Probe / Sonde</b><br>2D matrix 8×8 — 64 elements</div>
+<div class="kpi"><b>Wedge / Sabot</b><br>55° shear-wave</div>
+<div class="kpi"><b>Sectorial</b><br>35° → 70°</div>
+<div class="kpi"><b>Skew</b><br>−10° → +10°</div>
+<div class="kpi"><b>Encoded positions</b><br>41</div>
+<div class="kpi"><b>Focal laws</b><br>41 × 17 × 5 = 3485</div>
+<div class="kpi"><b>Blind detection</b><br>5/5 EDM</div>
+<h2>Progressive Twin construction / Construction progressive du Twin</h2>
+<p>Fusion B009 geometry → PA trajectory → encoded positions → 2D matrix focal laws → acoustic paths / TOF → encoded PAUT → TRUE 3D Scan → blind detection → FMC/TFM → 3D voxel → deterministic analysis → engineering report.</p>
+<h2>Fusion registration / Recalage Fusion</h2>
+<p>Curve RMS: 0.017 mm — EDM→target median: 0.247 mm — max: 4.916 mm.</p>
+<h2>Blind detection validation / Validation détection aveugle</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>edm_id</th>
+      <th>detected</th>
+      <th>error_mm</th>
+      <th>blind_shot</th>
+      <th>blind_amplitude_db</th>
+      <th>blind_range_mm</th>
+      <th>blind_sector_deg</th>
+      <th>blind_skew_deg</th>
+      <th>truth_X_mm</th>
+      <th>truth_Y_mm</th>
+      <th>truth_Z_mm</th>
+      <th>detected_X_mm</th>
+      <th>detected_Y_mm</th>
+      <th>detected_Z_mm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EDM_01</td>
+      <td>YES / OUI</td>
+      <td>2.395985</td>
+      <td>41</td>
+      <td>-4.182847</td>
+      <td>81.657033</td>
+      <td>56.0</td>
+      <td>-5.0</td>
+      <td>-18.998846</td>
+      <td>15.717934</td>
+      <td>-31.907006</td>
+      <td>-21.264643</td>
+      <td>15.037055</td>
+      <td>-31.528438</td>
+    </tr>
+    <tr>
+      <td>EDM_02</td>
+      <td>YES / OUI</td>
+      <td>0.578508</td>
+      <td>33</td>
+      <td>-5.271676</td>
+      <td>87.167630</td>
+      <td>54.0</td>
+      <td>10.0</td>
+      <td>48.017806</td>
+      <td>48.641117</td>
+      <td>-34.263580</td>
+      <td>47.986713</td>
+      <td>49.165867</td>
+      <td>-34.505121</td>
+    </tr>
+    <tr>
+      <td>EDM_03</td>
+      <td>YES / OUI</td>
+      <td>0.636535</td>
+      <td>23</td>
+      <td>-4.364987</td>
+      <td>78.400771</td>
+      <td>56.0</td>
+      <td>10.0</td>
+      <td>90.911265</td>
+      <td>100.826178</td>
+      <td>-35.743981</td>
+      <td>90.859976</td>
+      <td>101.421568</td>
+      <td>-35.963202</td>
+    </tr>
+    <tr>
+      <td>EDM_04</td>
+      <td>YES / OUI</td>
+      <td>0.659714</td>
+      <td>10</td>
+      <td>0.000000</td>
+      <td>84.913295</td>
+      <td>54.0</td>
+      <td>-5.0</td>
+      <td>110.513000</td>
+      <td>166.708019</td>
+      <td>-36.382807</td>
+      <td>110.320420</td>
+      <td>167.280360</td>
+      <td>-36.648441</td>
+    </tr>
+    <tr>
+      <td>EDM_05</td>
+      <td>YES / OUI</td>
+      <td>2.401320</td>
+      <td>4</td>
+      <td>-6.915818</td>
+      <td>85.414258</td>
+      <td>52.0</td>
+      <td>-10.0</td>
+      <td>110.391905</td>
+      <td>198.754539</td>
+      <td>-36.349754</td>
+      <td>111.067996</td>
+      <td>201.041321</td>
+      <td>-36.632359</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Technician digital sensitivity / Sensibilité numérique technicien</h2>
+<p>Reference convention used for cartography: 3 mm EDM reference = 50% FSH. Blind detection remains independent; the %FSH normalization is applied afterwards for technician interpretation.</p>
+<h2>Online report / Rapport en ligne</h2>
+<p>The report is generated from the same Twin context as geometry, encoded positions, focal laws, scan, detection, TFM and voxel. It is therefore part of the Living Engineering chain rather than a document added after the inspection.</p>
+<h2>Hardware-facing engineering data / Données d'ingénierie vers le hardware</h2>
+<p>The Twin exports PA position/orientation, nominal path and TOF, sector/skew definition and per-element focal-law delays. Final instrument-specific wedge delay, coupling, voltage and acquisition timing require physical validation on the selected equipment.</p>
+<h2>Evidence continuity / Continuité des preuves</h2>
+<div class="note"><b>B001 historical evidence / Preuve historique B001:</b> preserved as a previous validated digital evidence layer for comparison and traceability. It is not substituted for the current Fusion-driven B014 scan. Current B014 detection is reconstructed from Fusion B009 data.</div>
+<h2>Engineering outputs / Livrables</h2>
+<ul><li>exportable focal laws;</li><li>indication detection and analysis;</li><li>TFM and 3D voxel characterization;</li><li>decision matrix;</li><li>engineering report;</li><li>reusable digital context;</li><li>transfer basis for real inspection equipment and scanner.</li></ul>
+<p><i>Final hardware coupling, wedge transmission and absolute amplitude remain subject to physical validation.</i></p>
+</body></html>

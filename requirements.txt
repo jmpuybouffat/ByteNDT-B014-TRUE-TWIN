@@ -1,7 +1,1 @@
-streamlit
-numpy
-pandas
-plotly
-matplotlib
-imageio
-imageio-ffmpeg
+streamlit==1.66.1

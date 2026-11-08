@@ -1,0 +1,20 @@
+{
+  "cas": "C1",
+  "positions": 41,
+  "EDM_detectees": 5,
+  "EDM_reference": 5,
+  "lois_focales": 3485,
+  "resultats": "Rejeu original B014, calculs inchanges",
+  "repere": {
+    "reference_path": "/workspace/ByteNDT-B014-TRUE-TWIN/ByteNDT_C1_FOCAL_LAWS_8x8_B001.csv",
+    "reference_kind": "B001 focal-law target curve",
+    "reference_frame": "RAW",
+    "curve_registration_rms_mm": 0.01719587612476576,
+    "edm_to_b009_target_median_mm": 0.24733468663069824,
+    "edm_to_b009_target_max_mm": 4.915821014845988,
+    "old_course_start": 0.0,
+    "old_course_end": 1.0,
+    "reversed": false
+  },
+  "statut_mecanique": "Contexte trois aubes ajoute, volume mecanique illustratif, contact et collisions non valides"
+}

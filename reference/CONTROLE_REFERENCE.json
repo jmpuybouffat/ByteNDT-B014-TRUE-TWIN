@@ -1,0 +1,19 @@
+{
+  "positions": 41,
+  "indications": 5,
+  "detectees": 5,
+  "source_commit": "9c5a7b4edea07050edc0bd937893608c69f767bc",
+  "source_sha256": "2638a8ed2031588c5018f40ccc4ca4346e18ce481985d0ce76d12b91d6c01ac6",
+  "rejeu": "Fonctions originales, entrees et constantes originales, aucune modification des calculs",
+  "frame_diag": {
+    "reference_path": "/workspace/ByteNDT-B014-TRUE-TWIN/ByteNDT_C1_FOCAL_LAWS_8x8_B001.csv",
+    "reference_kind": "B001 focal-law target curve",
+    "reference_frame": "RAW",
+    "curve_registration_rms_mm": 0.01719587612476576,
+    "edm_to_b009_target_median_mm": 0.24733468663069824,
+    "edm_to_b009_target_max_mm": 4.915821014845988,
+    "old_course_start": 0.0,
+    "old_course_end": 1.0,
+    "reversed": false
+  }
+}

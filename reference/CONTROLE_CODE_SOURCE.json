@@ -1,0 +1,14 @@
+{
+  "fonctions_originales": 53,
+  "fonctions_modifiees": 0,
+  "controle": "Comparaison AST de toutes les fonctions du source C1 avec la version contexte trois aubes",
+  "couche_ajoutee": "contexte_3_aubes.py : figures uniquement",
+  "entrees_copiees": [
+    "ByteNDT_B009_FUSION_REFERENCE_BLADE_WOODENBLOCK.stl",
+    "ByteNDT_C1_PA_INTRADOS_PATH_20260926_180325.csv",
+    "ByteNDT_C1_GROOVE_EXTRADOS_TARGET_20260926_180325.csv",
+    "EDM_TUMELO_MASTER_VALIDATED.csv",
+    "ByteNDT_C1_FOCAL_LAWS_8x8_B001.csv",
+    "requirements.txt"
+  ]
+}

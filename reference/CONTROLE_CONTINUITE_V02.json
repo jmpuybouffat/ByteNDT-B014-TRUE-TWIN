@@ -1,0 +1,264 @@
+{
+  "positions": 41,
+  "EDM_finaux": 5,
+  "fonctions_calcul_modifiees": 0,
+  "hash_source": "2638a8ed2031588c5018f40ccc4ca4346e18ce481985d0ce76d12b91d6c01ac6",
+  "mode": "Rejeu des matrices et fonctions originales ; aucun nouveau seuil ni recalage",
+  "parametres": {
+    "blind_threshold_db": -18.0,
+    "max_peaks_per_shot": 6,
+    "geometry_tolerance_mm": 2.2,
+    "cluster_radius_mm": 5.0,
+    "validation_tolerance_mm": 6.0,
+    "cloud_display_threshold_db": -30.0,
+    "display_db_floor": -50.0
+  },
+  "controles": [
+    {
+      "shot": 1,
+      "clusters": 4,
+      "cloud_points": 260,
+      "prefix_rows": 1
+    },
+    {
+      "shot": 2,
+      "clusters": 5,
+      "cloud_points": 520,
+      "prefix_rows": 2
+    },
+    {
+      "shot": 3,
+      "clusters": 8,
+      "cloud_points": 780,
+      "prefix_rows": 3
+    },
+    {
+      "shot": 4,
+      "clusters": 10,
+      "cloud_points": 1040,
+      "prefix_rows": 4
+    },
+    {
+      "shot": 5,
+      "clusters": 12,
+      "cloud_points": 1300,
+      "prefix_rows": 5
+    },
+    {
+      "shot": 6,
+      "clusters": 13,
+      "cloud_points": 1536,
+      "prefix_rows": 6
+    },
+    {
+      "shot": 7,
+      "clusters": 14,
+      "cloud_points": 1772,
+      "prefix_rows": 7
+    },
+    {
+      "shot": 8,
+      "clusters": 16,
+      "cloud_points": 2032,
+      "prefix_rows": 8
+    },
+    {
+      "shot": 9,
+      "clusters": 19,
+      "cloud_points": 2272,
+      "prefix_rows": 9
+    },
+    {
+      "shot": 10,
+      "clusters": 19,
+      "cloud_points": 2484,
+      "prefix_rows": 10
+    },
+    {
+      "shot": 11,
+      "clusters": 20,
+      "cloud_points": 2699,
+      "prefix_rows": 11
+    },
+    {
+      "shot": 12,
+      "clusters": 20,
+      "cloud_points": 2906,
+      "prefix_rows": 12
+    },
+    {
+      "shot": 13,
+      "clusters": 20,
+      "cloud_points": 3112,
+      "prefix_rows": 13
+    },
+    {
+      "shot": 14,
+      "clusters": 21,
+      "cloud_points": 3327,
+      "prefix_rows": 14
+    },
+    {
+      "shot": 15,
+      "clusters": 24,
+      "cloud_points": 3540,
+      "prefix_rows": 15
+    },
+    {
+      "shot": 16,
+      "clusters": 25,
+      "cloud_points": 3755,
+      "prefix_rows": 16
+    },
+    {
+      "shot": 17,
+      "clusters": 25,
+      "cloud_points": 3967,
+      "prefix_rows": 17
+    },
+    {
+      "shot": 18,
+      "clusters": 26,
+      "cloud_points": 4169,
+      "prefix_rows": 18
+    },
+    {
+      "shot": 19,
+      "clusters": 28,
+      "cloud_points": 4362,
+      "prefix_rows": 19
+    },
+    {
+      "shot": 20,
+      "clusters": 28,
+      "cloud_points": 4572,
+      "prefix_rows": 20
+    },
+    {
+      "shot": 21,
+      "clusters": 29,
+      "cloud_points": 4786,
+      "prefix_rows": 21
+    },
+    {
+      "shot": 22,
+      "clusters": 30,
+      "cloud_points": 4990,
+      "prefix_rows": 22
+    },
+    {
+      "shot": 23,
+      "clusters": 31,
+      "cloud_points": 5200,
+      "prefix_rows": 23
+    },
+    {
+      "shot": 24,
+      "clusters": 33,
+      "cloud_points": 5421,
+      "prefix_rows": 24
+    },
+    {
+      "shot": 25,
+      "clusters": 35,
+      "cloud_points": 5641,
+      "prefix_rows": 25
+    },
+    {
+      "shot": 26,
+      "clusters": 36,
+      "cloud_points": 5866,
+      "prefix_rows": 26
+    },
+    {
+      "shot": 27,
+      "clusters": 36,
+      "cloud_points": 6091,
+      "prefix_rows": 27
+    },
+    {
+      "shot": 28,
+      "clusters": 40,
+      "cloud_points": 6309,
+      "prefix_rows": 28
+    },
+    {
+      "shot": 29,
+      "clusters": 42,
+      "cloud_points": 6537,
+      "prefix_rows": 29
+    },
+    {
+      "shot": 30,
+      "clusters": 44,
+      "cloud_points": 6768,
+      "prefix_rows": 30
+    },
+    {
+      "shot": 31,
+      "clusters": 44,
+      "cloud_points": 7008,
+      "prefix_rows": 31
+    },
+    {
+      "shot": 32,
+      "clusters": 44,
+      "cloud_points": 7268,
+      "prefix_rows": 32
+    },
+    {
+      "shot": 33,
+      "clusters": 44,
+      "cloud_points": 7528,
+      "prefix_rows": 33
+    },
+    {
+      "shot": 34,
+      "clusters": 48,
+      "cloud_points": 7781,
+      "prefix_rows": 34
+    },
+    {
+      "shot": 35,
+      "clusters": 50,
+      "cloud_points": 8041,
+      "prefix_rows": 35
+    },
+    {
+      "shot": 36,
+      "clusters": 50,
+      "cloud_points": 8301,
+      "prefix_rows": 36
+    },
+    {
+      "shot": 37,
+      "clusters": 51,
+      "cloud_points": 8556,
+      "prefix_rows": 37
+    },
+    {
+      "shot": 38,
+      "clusters": 53,
+      "cloud_points": 8811,
+      "prefix_rows": 38
+    },
+    {
+      "shot": 39,
+      "clusters": 54,
+      "cloud_points": 9050,
+      "prefix_rows": 39
+    },
+    {
+      "shot": 40,
+      "clusters": 56,
+      "cloud_points": 9307,
+      "prefix_rows": 40
+    },
+    {
+      "shot": 41,
+      "clusters": 58,
+      "cloud_points": 9567,
+      "prefix_rows": 41
+    }
+  ]
+}

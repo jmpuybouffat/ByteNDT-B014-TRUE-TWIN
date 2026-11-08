@@ -1,0 +1,44 @@
+FRANCAIS
+
+Extraire TOUT le ZIP, puis ouvrir :
+00_OUVRIR_CYCLE_C1_FR_EN.html
+
+Choisir Francais ou English en haut a droite. Aucune installation de Python n'est necessaire. Le dossier fonctionne hors ligne dans Chrome ou Edge.
+
+Lecture/Pause et le curseur pilotent le MEME tir pour le volume PA, l'A-scan, les lignes PAUT encodees, le nuage UT et les candidats regroupes. Les lignes futures restent vides. Cliquer sur un tir de la liste des candidats revient a son signal.
+
+Reperes : voisine bleue, centrale doree, voisine verte ; volume global holder + PA + wedge rose. Choisir Vue du passage pour regarder entre les aubes. L'opacite et la vue oblique sont reglables. Le surlignage aide a voir au travers des surfaces, sans prouver le passage mecanique.
+
+Apres le tir 41, cocher Comparer aux 5 EDM de reference. Les cinq EDM correspondantes sont nommees ; les autres candidats du detecteur restent visibles. 5/5 correspondances ne veut pas dire zero faux positif. Les seuils et regroupements sont ceux du code C1 original, sans retouche.
+
+Les analyses TFM/voxel des cinq EDM et le rapport original sont accessibles en bas de page au dernier tir. La petite notice explique les vues et l'identification :
+NOTICE_C1_FR_EN.pdf (page 1 en francais, page 2 en anglais).
+
+Videos : C1_CYCLE_FR.mp4 et C1_CYCLE_EN.mp4.
+Les deux videos montrent le meme cycle : progression synchronisee, validation finale, exemple TFM/voxel EDM_03, puis rapport bilingue d'origine. La page permet d'inspecter les cinq EDM.
+
+ENGLISH
+
+Extract the ENTIRE ZIP, then open:
+00_OUVRIR_CYCLE_C1_FR_EN.html
+
+Select English or Francais at the top right. No Python installation is required. The folder works offline in Chrome or Edge.
+
+Play/Pause and the slider drive the SAME shot in the PA volume, A-scan, encoded PAUT rows, UT cloud and grouped-candidate views. Future rows remain empty. Clicking a retained shot in the candidate list returns to its signal.
+
+Colour key: blue adjacent blade, gold central blade, green adjacent blade; pink global holder + PA + wedge volume. Use Passage view to look between the blades. Opacity and oblique view are adjustable. Highlighting shows through surfaces but does not demonstrate mechanical clearance.
+
+After shot 41, enable Compare with the 5 reference EDMs. The five matched EDMs receive their identities; other detector candidates remain visible. Five reference matches do not mean zero false positives. The thresholds and grouping are unchanged from the original C1 code.
+
+TFM/voxel analyses for all five EDMs and the original report are available at the last shot. The short guide explains the views and identification:
+NOTICE_C1_FR_EN.pdf (page 1 French, page 2 English).
+
+Videos: C1_CYCLE_FR.mp4 and C1_CYCLE_EN.mp4.
+Both videos show the same cycle: synchronized progression, final validation, an EDM_03 TFM/voxel example, then the original bilingual report. The page lets you inspect all five EDMs.
+
+REFERENCE / CONTINUITY
+C1: https://bytendt-b014-true-twin.streamlit.app/
+Source revision: 9c5a7b4edea07050edc0bd937893608c69f767bc.
+41 original positions, 3,485 laws, 5 reference EDMs in the INTRADOS groove; PA on EXTRADOS.
+No acquisition model, input path, threshold or result has been changed. The progressive states are produced by the source cluster_candidates and build_progressive_scan3d_cloud functions using the same encoded matrix. The final validation and analyses come from the same replay.
+The online Streamlit app is unchanged. This package is a publication/training replay, not a new physical acquisition or a manufacturing release. Detailed scanner clearance, insertion/removal, cable routing and contact still require mechanical checks before printing.

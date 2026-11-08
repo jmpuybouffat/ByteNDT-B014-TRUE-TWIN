@@ -1,0 +1,261 @@
+{
+  "errors": [],
+  "states": [
+    {
+      "shot": 1,
+      "rows": 1,
+      "cloud": 260,
+      "clusters": 4
+    },
+    {
+      "shot": 2,
+      "rows": 2,
+      "cloud": 520,
+      "clusters": 5
+    },
+    {
+      "shot": 3,
+      "rows": 3,
+      "cloud": 780,
+      "clusters": 8
+    },
+    {
+      "shot": 4,
+      "rows": 4,
+      "cloud": 1040,
+      "clusters": 10
+    },
+    {
+      "shot": 5,
+      "rows": 5,
+      "cloud": 1300,
+      "clusters": 12
+    },
+    {
+      "shot": 6,
+      "rows": 6,
+      "cloud": 1536,
+      "clusters": 13
+    },
+    {
+      "shot": 7,
+      "rows": 7,
+      "cloud": 1772,
+      "clusters": 14
+    },
+    {
+      "shot": 8,
+      "rows": 8,
+      "cloud": 2032,
+      "clusters": 16
+    },
+    {
+      "shot": 9,
+      "rows": 9,
+      "cloud": 2272,
+      "clusters": 19
+    },
+    {
+      "shot": 10,
+      "rows": 10,
+      "cloud": 2484,
+      "clusters": 19
+    },
+    {
+      "shot": 11,
+      "rows": 11,
+      "cloud": 2699,
+      "clusters": 20
+    },
+    {
+      "shot": 12,
+      "rows": 12,
+      "cloud": 2906,
+      "clusters": 20
+    },
+    {
+      "shot": 13,
+      "rows": 13,
+      "cloud": 3112,
+      "clusters": 20
+    },
+    {
+      "shot": 14,
+      "rows": 14,
+      "cloud": 3327,
+      "clusters": 21
+    },
+    {
+      "shot": 15,
+      "rows": 15,
+      "cloud": 3540,
+      "clusters": 24
+    },
+    {
+      "shot": 16,
+      "rows": 16,
+      "cloud": 3755,
+      "clusters": 25
+    },
+    {
+      "shot": 17,
+      "rows": 17,
+      "cloud": 3967,
+      "clusters": 25
+    },
+    {
+      "shot": 18,
+      "rows": 18,
+      "cloud": 4169,
+      "clusters": 26
+    },
+    {
+      "shot": 19,
+      "rows": 19,
+      "cloud": 4362,
+      "clusters": 28
+    },
+    {
+      "shot": 20,
+      "rows": 20,
+      "cloud": 4572,
+      "clusters": 28
+    },
+    {
+      "shot": 21,
+      "rows": 21,
+      "cloud": 4786,
+      "clusters": 29
+    },
+    {
+      "shot": 22,
+      "rows": 22,
+      "cloud": 4990,
+      "clusters": 30
+    },
+    {
+      "shot": 23,
+      "rows": 23,
+      "cloud": 5200,
+      "clusters": 31
+    },
+    {
+      "shot": 24,
+      "rows": 24,
+      "cloud": 5421,
+      "clusters": 33
+    },
+    {
+      "shot": 25,
+      "rows": 25,
+      "cloud": 5641,
+      "clusters": 35
+    },
+    {
+      "shot": 26,
+      "rows": 26,
+      "cloud": 5866,
+      "clusters": 36
+    },
+    {
+      "shot": 27,
+      "rows": 27,
+      "cloud": 6091,
+      "clusters": 36
+    },
+    {
+      "shot": 28,
+      "rows": 28,
+      "cloud": 6309,
+      "clusters": 40
+    },
+    {
+      "shot": 29,
+      "rows": 29,
+      "cloud": 6537,
+      "clusters": 42
+    },
+    {
+      "shot": 30,
+      "rows": 30,
+      "cloud": 6768,
+      "clusters": 44
+    },
+    {
+      "shot": 31,
+      "rows": 31,
+      "cloud": 7008,
+      "clusters": 44
+    },
+    {
+      "shot": 32,
+      "rows": 32,
+      "cloud": 7268,
+      "clusters": 44
+    },
+    {
+      "shot": 33,
+      "rows": 33,
+      "cloud": 7528,
+      "clusters": 44
+    },
+    {
+      "shot": 34,
+      "rows": 34,
+      "cloud": 7781,
+      "clusters": 48
+    },
+    {
+      "shot": 35,
+      "rows": 35,
+      "cloud": 8041,
+      "clusters": 50
+    },
+    {
+      "shot": 36,
+      "rows": 36,
+      "cloud": 8301,
+      "clusters": 50
+    },
+    {
+      "shot": 37,
+      "rows": 37,
+      "cloud": 8556,
+      "clusters": 51
+    },
+    {
+      "shot": 38,
+      "rows": 38,
+      "cloud": 8811,
+      "clusters": 53
+    },
+    {
+      "shot": 39,
+      "rows": 39,
+      "cloud": 9050,
+      "clusters": 54
+    },
+    {
+      "shot": 40,
+      "rows": 40,
+      "cloud": 9307,
+      "clusters": 56
+    },
+    {
+      "shot": 41,
+      "rows": 41,
+      "cloud": 9567,
+      "clusters": 58
+    }
+  ],
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "finalMatched": 5,
+  "finalCandidates": 58,
+  "sync": true,
+  "resetHidesValidation": true,
+  "playWorks": true,
+  "tfmEnglish": "EDM_03 — FMC/TFM 64×64 — measurements −6 / −12 dB"
+}
