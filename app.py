@@ -14,7 +14,7 @@ assets_root = Path(__file__).resolve().parent / 'assets'
 asset_version = tuple((f.name, f.stat().st_mtime_ns, f.stat().st_size) for f in sorted(assets_root.iterdir()) if f.is_file())
 
 with st.spinner('Chargement du cycle C1 / Loading the C1 replay…'):
-    st.iframe(publication_document(asset_version), height=1450, alt="C1 — cycle synchronisé / synchronized replay — FR / EN")
+    st.iframe(publication_document(asset_version), height="content", alt="C1 — cycle synchronisé / synchronized replay — FR / EN")
 
 with st.expander('Notice actuelle et archives V02 / Current guide and V02 archives'):
     root = Path(__file__).resolve().parent

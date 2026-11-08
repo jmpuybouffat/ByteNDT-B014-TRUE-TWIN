@@ -1,0 +1,24 @@
+{
+  "results": [
+    "tfm",
+    "voxel",
+    "report",
+    "indications",
+    "mechanics",
+    "guide",
+    "scan"
+  ],
+  "errors": [],
+  "originalFSHunchanged": true,
+  "originalAscanUnchanged": true,
+  "fiveEDMlabels": true,
+  "unchanged_original_exports": [
+    "C1_DETECTIONS_REFERENCE.csv",
+    "C1_VALIDATION_REFERENCE.csv",
+    "C1_ANALYSE_DECISION.csv",
+    "C1_CONTEXTE_REFERENCE.json",
+    "C1_3485_LOIS_FOCALES.csv",
+    "C1_RAPPORT_REFERENCE.html",
+    "NOTICE_C1_FR_EN.pdf"
+  ]
+}

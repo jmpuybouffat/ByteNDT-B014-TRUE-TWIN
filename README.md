@@ -83,3 +83,11 @@ La cartographie principale est de nouveau la vue bleue du générateur C1 d'orig
 The main cartography is again the original C1 blue operator view, calibrated **3 mm = 50% FSH**, with the five EDMs at their reference positions. In this known replay, their labels appear at the corresponding supporting shot. The encoded dB trace remains available in **Signal details**, unchanged.
 
 La commande **Gorge C1 visée / C1 target groove** rétablit la vue rapprochée, les couleurs et l'opacité. La courbe rouge reprend les 41 points cibles source ; la direction verte relie la position PA à sa cible source. Aucun tableau de résultats, seuil ou point de trajectoire n'est modifié. Les contrôles de cette correction d'affichage figurent dans `reference/CONTROLE_RESTAURATION_OPERATEUR.json` et `reference/CONTROLE_CORRECTION_AFFICHAGE.json`.
+
+## Accès directs / Direct access
+
+Le bandeau donne accès au scan, aux indications, à la TFM, au voxel 3D, au rapport et à la notice en FR/EN. Les analyses et le rapport ouvrent directement les résultats finaux des 41 positions. Le sélecteur EDM parcourt les cinq analyses originales.
+
+The navigation bar opens the scan, indications, TFM, 3D voxel, report and bilingual guide. Analyses and report open the final 41-position reference results. The EDM selector browses the five original analyses.
+
+La rubrique mécanique de la rupture indique explicitement le module manquant : aucun calcul de criticité n’existe dans cette source C1. Matériau, ténacité, chargement et géométrie de fissure sont nécessaires avant intégration. Les extensions TFM/voxel ne sont pas des dimensions de fissure validées.

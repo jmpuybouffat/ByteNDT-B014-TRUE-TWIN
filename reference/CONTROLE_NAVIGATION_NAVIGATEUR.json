@@ -1,0 +1,15 @@
+{
+  "results": [
+    "tfm",
+    "voxel",
+    "report",
+    "indications",
+    "mechanics",
+    "guide",
+    "scan"
+  ],
+  "errors": [],
+  "originalFSHunchanged": true,
+  "originalAscanUnchanged": true,
+  "fiveEDMlabels": true
+}
