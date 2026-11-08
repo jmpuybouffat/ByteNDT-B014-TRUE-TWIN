@@ -33,9 +33,9 @@ In Streamlit Community Cloud, create an app with these settings:
 | Main file path | `app.py` |
 | Python | `3.12` |
 
-Sous-domaine proposé, sous réserve de disponibilité : `bytendt-lsb941-c1-fr-en`. Cette adresse n'est pas créée par le dépôt ; elle devient active après le déploiement dans votre compte Streamlit.
+Application publiée : https://bytendt-lsb941-c1-fr-en.streamlit.app/
 
-Suggested subdomain, subject to availability: `bytendt-lsb941-c1-fr-en`. This repository does not create that address; it becomes active after deployment in your Streamlit account.
+Published application: https://bytendt-lsb941-c1-fr-en.streamlit.app/
 
 Aucun secret, chemin Windows ou accès à un dossier Téléchargements n'est requis. Les scripts et données sont embarqués ; la notice, le rapport et les CSV sont proposés via des fichiers Blob locaux au navigateur.
 
@@ -75,3 +75,11 @@ This branch contains the **C1 TWIN** publication. C1/C2 scanner construction and
 The verified FR/EN V02 assets are copied unchanged. Their hashes, original calculation source and continuity checks are retained in `reference/`. `publication_view.py` changes only HTML embedding, local resources and download links for Streamlit.
 
 Three.js and Plotly are distributed under their included MIT licences.
+
+## Lecture opérateur restaurée / Restored operator reading
+
+La cartographie principale est de nouveau la vue bleue du générateur C1 d'origine, calibrée **3 mm = 50 % FSH**, avec les cinq EDM à leurs positions de référence. Dans ce rejeu connu, leurs étiquettes apparaissent au tir support correspondant. La trace encodée en dB reste disponible dans **Détails du signal**, sans modification.
+
+The main cartography is again the original C1 blue operator view, calibrated **3 mm = 50% FSH**, with the five EDMs at their reference positions. In this known replay, their labels appear at the corresponding supporting shot. The encoded dB trace remains available in **Signal details**, unchanged.
+
+La commande **Gorge C1 visée / C1 target groove** rétablit la vue rapprochée, les couleurs et l'opacité. La courbe rouge reprend les 41 points cibles source ; la direction verte relie la position PA à sa cible source. Aucun tableau de résultats, seuil ou point de trajectoire n'est modifié. Les contrôles de cette correction d'affichage figurent dans `reference/CONTROLE_RESTAURATION_OPERATEUR.json` et `reference/CONTROLE_CORRECTION_AFFICHAGE.json`.

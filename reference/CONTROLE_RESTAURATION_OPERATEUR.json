@@ -1,0 +1,31 @@
+{
+  "scope": "Restore the original operator cartography and keep the encoded trace in signal details",
+  "replay_arrays_unchanged": true,
+  "operator_source_function": "make_global_cartography",
+  "operator_scale": "3mm reference =50%FSH",
+  "source_labels": [
+    "EDM_01",
+    "EDM_02",
+    "EDM_03",
+    "EDM_04",
+    "EDM_05"
+  ],
+  "source_marker_shots": [
+    41,
+    33,
+    23,
+    10,
+    4
+  ],
+  "source_markers_ranges": [
+    81.65703275529866,
+    87.16763005780346,
+    78.40077071290945,
+    84.91329479768787,
+    85.41425818882466
+  ],
+  "operator_rows": 41,
+  "operator_bins": 520,
+  "before_sha256": "72aea11dbd640936aa88e0a86b3e642ae999d018f908d18fbd75446090286edf",
+  "after_sha256": "24d428c4df993da6b2457f762134e5ea9efd0df085c54a099ee021e9ea263016"
+}

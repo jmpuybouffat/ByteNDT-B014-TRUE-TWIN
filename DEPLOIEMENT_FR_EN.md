@@ -20,6 +20,6 @@ Après déploiement, vérifier / After deployment, check:
 - À 41/41, cocher la comparaison : 5/5 EDM de référence. / At 41/41, enable comparison: 5/5 reference EDMs.
 - Notice PDF, rapport HTML et CSV des 3 485 lois focales accessibles. / PDF guide, HTML report and 3,485-law CSV accessible.
 
-Le sous-domaine proposé `bytendt-lsb941-c1-fr-en` est un nom à saisir dans Streamlit si disponible, pas une URL déjà déployée.
+Application publiée : https://bytendt-lsb941-c1-fr-en.streamlit.app/
 
-Suggested subdomain `bytendt-lsb941-c1-fr-en` is a name to enter in Streamlit if available, not an already deployed URL.
+Published application: https://bytendt-lsb941-c1-fr-en.streamlit.app/

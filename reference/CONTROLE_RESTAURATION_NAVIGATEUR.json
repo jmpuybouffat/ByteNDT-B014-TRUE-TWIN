@@ -1,0 +1,70 @@
+{
+  "errors": [],
+  "states": [
+    {
+      "shot": 1,
+      "labels": [],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    },
+    {
+      "shot": 4,
+      "labels": [
+        "EDM_05"
+      ],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    },
+    {
+      "shot": 10,
+      "labels": [
+        "EDM_04",
+        "EDM_05"
+      ],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    },
+    {
+      "shot": 23,
+      "labels": [
+        "EDM_03",
+        "EDM_04",
+        "EDM_05"
+      ],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    },
+    {
+      "shot": 33,
+      "labels": [
+        "EDM_02",
+        "EDM_03",
+        "EDM_04",
+        "EDM_05"
+      ],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    },
+    {
+      "shot": 41,
+      "labels": [
+        "EDM_01",
+        "EDM_02",
+        "EDM_03",
+        "EDM_04",
+        "EDM_05"
+      ],
+      "FSHvaluesUnchanged": true,
+      "encodedTraceUnchanged": true
+    }
+  ],
+  "finalSourceEDMs": 5,
+  "FSHsourceValuesIdentical": true,
+  "encodedSignalUnchanged": true,
+  "closeupRestoresOpacity": true,
+  "grooveReferencePoints": 41,
+  "guideLanguages": [
+    "fr",
+    "en"
+  ]
+}

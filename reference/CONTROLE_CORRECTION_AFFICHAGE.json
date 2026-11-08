@@ -1,0 +1,14 @@
+{
+  "scope": "Affichage uniquement : commande de recentrage, couleurs, limites opacite et repere de gorge",
+  "numerical_scene_payload_unchanged": true,
+  "source_target_points": 41,
+  "source_PA_positions": 41,
+  "before_sha256": "1d79a1c57f2401f55e2aeed1473648c5e4016119b6a699c4f50d35e8641022cc",
+  "after_sha256": "7824bf4c181ae99260b2d23addadbab24dac158382c5a1fe1e4f289a3c38bc45",
+  "groove_marker": "Tube display of piecewise linear segments through the 41 original target points; no target displacement",
+  "restoration": {
+    "opacity": 0.65,
+    "radius": 325,
+    "all_blades_visible": true
+  }
+}
