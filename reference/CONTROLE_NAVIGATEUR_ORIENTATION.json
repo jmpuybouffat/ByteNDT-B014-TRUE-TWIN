@@ -1,0 +1,15 @@
+{
+  "dense_samples": 441,
+  "max_interpolated_across_step_deg": 0.37355965372843786,
+  "real_animation_samples": 34,
+  "real_animation_positions": [
+    23.9875,
+    29.42475
+  ],
+  "errors": [],
+  "tested_positions_range": [
+    23,
+    34
+  ],
+  "slot_curve_and_sections_and_acoustic_pose_registrations_unchanged": true
+}

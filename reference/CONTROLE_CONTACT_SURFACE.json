@@ -2,8 +2,8 @@
   "motion_poses": 401,
   "contact_centres_on_root_triangles": 401,
   "sampled_footprint_vertices_on_root": 10025,
-  "actual_skin_patch_triangles": 23503,
-  "maximum_patch_plane_error_mm": 2.3699101989671798e-14,
+  "actual_skin_patch_triangles": 22879,
+  "maximum_patch_plane_error_mm": 2.1527918882905274e-14,
   "footprint_mm": [
     25,
     25

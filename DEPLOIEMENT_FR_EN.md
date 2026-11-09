@@ -27,6 +27,6 @@ Published application: https://bytendt-lsb941-c1-fr-en.streamlit.app/
 
 ## Reprise si une ancienne scène reste affichée
 
-Un rafraîchissement navigateur ne prouve pas que le serveur Streamlit utilise la nouvelle révision. Dans Manage app → Settings, vérifier Repository `jmpuybouffat/ByteNDT-B014-TRUE-TWIN`, Branch `publication/c1-3aubes-fr-en`, Main file path `app.py`, Python3.12. Ensuite Manage app → Reboot. Le marqueur attendu en haut est **C1 · Première gorge ·27,6mm ·R1**. La scène doit proposer **Volume3D calculé** et **Coupes sectorielle/skew**. Si ce marqueur manque, la nouvelle entrée n'est pas chargée.
+Un rafraîchissement navigateur ne prouve pas que le serveur Streamlit utilise la nouvelle révision. Dans Manage app → Settings, vérifier Repository `jmpuybouffat/ByteNDT-B014-TRUE-TWIN`, Branch `publication/c1-3aubes-fr-en`, Main file path `app.py`, Python3.12. Ensuite Manage app → Reboot. Le marqueur attendu en haut est **C1 · Première gorge ·27,6mm ·R2**. La scène doit proposer **Volume3D calculé** et **Coupes sectorielle/skew**. Si ce marqueur manque, la nouvelle entrée n'est pas chargée.
 
 The app reads and verifies the current assets against the published SHA256 manifest on each run. No previous-revision document cache is reused. Browser refresh alone is not a server deployment check.

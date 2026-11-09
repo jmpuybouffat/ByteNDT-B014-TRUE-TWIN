@@ -1,0 +1,19 @@
+{
+  "method": "minimal-rotation parallel transport of support frame along unchanged contact normals",
+  "poses": 401,
+  "max_old_rotation_per_sample_deg": 170.85648683088655,
+  "max_new_rotation_per_sample_deg": 1.766523561046577,
+  "old_samples_above_90_deg": [
+    25.3,
+    25.6,
+    28.0,
+    28.1,
+    32.0,
+    32.7
+  ],
+  "new_samples_above_5_deg": 0,
+  "contact_points_origins_targets_normals_and_incidence_exactly_unchanged": true,
+  "source_85_rays_per_position_exactly_unchanged": true,
+  "source_processing_or_physics_changed": false,
+  "slot_curve_and_sections_and_acoustic_pose_registrations_unchanged": true
+}
