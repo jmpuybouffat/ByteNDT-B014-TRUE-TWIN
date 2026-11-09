@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 ASSET_FILES = {
+    'C1_ETUDE_SLOT.zip': 'application/zip',
     'NOTICE_C1_FR_EN.pdf': 'application/pdf',
     'C1_RAPPORT_REFERENCE.html': 'text/html;charset=utf-8',
     'C1_VALIDATION_REFERENCE.csv': 'text/csv;charset=utf-8',

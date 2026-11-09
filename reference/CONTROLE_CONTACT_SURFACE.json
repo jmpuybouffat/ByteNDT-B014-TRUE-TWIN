@@ -1,0 +1,16 @@
+{
+  "motion_poses": 401,
+  "contact_centres_on_root_triangles": 401,
+  "sampled_footprint_vertices_on_root": 10025,
+  "actual_skin_patch_triangles": 23060,
+  "maximum_patch_plane_error_mm": 1.7293301078719938e-14,
+  "footprint_mm": [
+    25,
+    25
+  ],
+  "UT_source_arrays": "unchanged",
+  "scope": "graphic contact surface and section; not manufactured wedge profile or scanner clearance validation",
+  "maximum_contact_plane_error_mm": 9.467323719951004e-15,
+  "step_valid": true,
+  "step_edges": 400
+}

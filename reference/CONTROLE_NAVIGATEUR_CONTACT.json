@@ -1,0 +1,47 @@
+{
+  "states": [
+    {
+      "shot": 1,
+      "spot": 59,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    },
+    {
+      "shot": 4,
+      "spot": 63,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    },
+    {
+      "shot": 10,
+      "spot": 56,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    },
+    {
+      "shot": 23,
+      "spot": 61,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    },
+    {
+      "shot": 33,
+      "spot": 62,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    },
+    {
+      "shot": 41,
+      "spot": 56,
+      "sourceOriginUnchanged": true,
+      "rays85": true
+    }
+  ],
+  "motionPhase": 0.1,
+  "acquisitionHeldDuringMotion": true,
+  "TFM": true,
+  "voxel": true,
+  "report": true,
+  "FR_EN": true,
+  "errors": []
+}

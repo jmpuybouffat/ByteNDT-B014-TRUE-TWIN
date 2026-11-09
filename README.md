@@ -91,3 +91,7 @@ Le bandeau donne accès au scan, aux indications, à la TFM, au voxel 3D, au rap
 The navigation bar opens the scan, indications, TFM, 3D voxel, report and bilingual guide. Analyses and report open the final 41-position reference results. The EDM selector browses the five original analyses.
 
 La rubrique mécanique de la rupture indique explicitement le module manquant : aucun calcul de criticité n’existe dans cette source C1. Matériau, ténacité, chargement et géométrie de fissure sont nécessaires avant intégration. Les extensions TFM/voxel ne sont pas des dimensions de fissure validées.
+
+## Contact et coupe C1 — 09 novembre 2026
+
+Le PA affiché est ancré sur la peau du maillage, séparément de l'origine UT virtuelle. Lecture anime 401 poses de surface avant d'afficher les acquisitions aux 41 positions. La coupe utilise les triangles réels de la racine ; les échantillons du tir courant et les directions UT sources y sont synchronisés. Le bouton 3D montre le contact avec une coupe visuelle des voisines. Les données numériques initiales sont inchangées. Le paquet unique `downloads/C1_FINAL_FR_EN.zip` contient aussi CSV/DXF/STEP d'étude du slot. Voir `reference/CONTACT_C1_METHODE.md` pour la méthode et ses limites mécaniques.
