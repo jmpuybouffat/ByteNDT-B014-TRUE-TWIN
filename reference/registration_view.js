@@ -1,0 +1,7 @@
+// One mechanical reconstruction layer. Source arrays remain immutable.
+const C1_REGISTRATION=__REG__;
+function regPoint(q,shot){const f=C1_REGISTRATION.frames[Math.max(0,Math.min(40,Math.round(shot)-1))];return f.R.map((row,j)=>row.reduce((a,v,k)=>a+v*q[k],f.T[j]))}
+function regVector(q,shot){const f=C1_REGISTRATION.frames[Math.max(0,Math.min(40,Math.round(shot)-1))];return f.R.map(row=>row.reduce((a,v,k)=>a+v*q[k],0))}
+const VIEW_DATA={...DATA,path:DATA.path.map((q,i)=>regPoint(q,i+1)),targets:DATA.targets.map((q,i)=>regPoint(q,i+1)),normals:DATA.normals.map((q,i)=>regVector(q,i+1)),elements:DATA.elements.map((e,i)=>e.map(q=>regPoint(q,i+1)))};
+function registerAcousticFrame(m){return {...m,cloud_xyz:(m.cloud_xyz||[]).map((q,i)=>regPoint(q,m.cloud_shots?.[i]||m.shot)),shot_xyz:(m.shot_xyz||[]).map(q=>regPoint(q,m.shot)),clusters:(m.clusters||[]).map(d=>{const q=regPoint([d.x_mm,d.y_mm,d.z_mm],d.shot||m.shot);return {...d,x_mm:q[0],y_mm:q[1],z_mm:q[2]}})}}
+window.C1Registration={reference:C1_REGISTRATION,get audit(){return {depth_mm:27.6,scale_once:.1,mode:'per-pose rigid mechanical reconstruction of original acoustic replay',source_matrices_unchanged:true,shot:c1shot,target:VIEW_DATA.targets[Math.max(0,c1shot-1)],contact:displayPose.contact,incidence_deg:Math.acos(Math.max(-1,Math.min(1,-new THREE.Vector3(...displayPose.normal).dot(new THREE.Vector3(...displayPose.target).sub(new THREE.Vector3(...displayPose.contact)).normalize()))))*180/Math.PI}}};

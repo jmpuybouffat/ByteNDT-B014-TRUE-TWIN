@@ -30,3 +30,9 @@ Le volume est maintenant calculé aux 41 positions avec les 85 lois et les 64 é
 Ce volume normalisé ne comporte pas de pression calibrée, de réfraction explicite dans le sabot ou de rétrodiffusion complète. Il ne remplace pas le raccordement B006 décrit ci-dessus. Pendant le glissement entre tirs, le volume du dernier tir est transporté ; aucun calcul intermédiaire supplémentaire n'est revendiqué. Les amplitudes UT/FSH, TFM, voxel et résultats de détection restent inchangés.
 
 Les surfaces représentent une couverture maximale sur des lois successives, pas une émission simultanée de toutes les lois. Le calcul de cohérence suppose la propagation dans le milieu homogène du moteur source ; la surface volumique n’est pas découpée aux limites du métal et ne simule pas les interfaces du sabot.
+
+## Reconstruction mécanique de première gorge
+
+Les positions originales sont conservées dans les tableaux canoniques. Une couche `VIEW_DATA` reconstruit la vue via41transformations rigides propres. Chaque volume cohérent est tourné et translaté avec sa pose : valeurs et référence dB inchangées. Le nuage cumulé utilise le numéro de tir de chaque point ; les indications utilisent le tir retenu d’origine. L’angle entre le rayon central et la tangente de parcours source est aussi conservé pour éviter de déplacer les indications en profondeur lors du recalage. Le55° est une contrainte de la direction centrale à la normale interpolée du maillage, pas une qualification de réfraction dans un sabot fabriqué.
+
+Le contact est contraint au maillage,401poses et empreintes recalculées. La courbe de première gorge et les coordonnées de reconstruction ne sont pas une nouvelle métrologie indépendante des EDM. Les matrices UT originales restent un rejeu, sans nouveau calcul de détection ou qualification physique.

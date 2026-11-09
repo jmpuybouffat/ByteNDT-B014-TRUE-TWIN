@@ -107,3 +107,11 @@ Les 41 volumes utilisent les retards des 85 lois successives et les 64 élément
 Each of the 41 volumes uses the 85 sequential delay laws and 64 original C1 elements, preserving UT results. Nominal axis: 55 degrees. Coverage is maximum coherent gain across laws, not a single simultaneously emitted beam. Fixed-reference -6/-12 dB surfaces and equal-scale sectorial/skew slices are available. Grid spacing is 2 to 2.47 mm. Cumulative indications are distinct from the current-shot field.
 
 This is normalized source-model coherent gain, not calibrated pressure, %FSH or a full Green/Kirchhoff/Born/GTD backscatter calculation. See `reference/CONTROLE_VOLUME_CALCULE.json` for numerical checks and `reference/AUDIT_REFERENCE_CHAMP_C1.md` for model scope. Between acquisitions the last computed volume is transported with the PA; intermediate fields are not recomputed.
+
+## Recalage mécanique C1 — référence initiale27,6mm
+
+La courbe rouge est désormais extraite au milieu de la première gorge extrados du maillage. Le PA est au contact de l’aérofoil ; sa direction centrale est à55° de la normale interpolée du maillage. La conversion CAO×0,1 est appliquée une seule fois.
+
+Il s’agit d’une reconstruction du rejeu acoustique dans41poses mécaniques recalées : une transformation rigide par pose s’applique au PA, aux64éléments, au volume cohérent calculé, aux échantillons UT et aux indications. Les matrices UT, amplitudes, lois, TFM/voxel et résultats sources sont conservés. Ces résultats ne constituent pas une nouvelle validation physique de l’examen dans la géométrie recalée. Les XYZ du rapport d’origine restent dans le repère source ; les exports R/T et indications reconstruites distinguent ce repère du repère mécanique affiché.
+
+The red curve follows the actual first extrados groove. PA contact is on the mesh skin, central angle55° to interpolated normals. Per-pose proper rigid reconstruction preserves original acoustic matrices and results; it is not a new physical inspection validation. See `reference/RECALAGE_MECANIQUE_C1.json` and `reference/CONTROLE_RECALAGE_C1.json`. The full Green/Kirchhoff/Born/GTD backscatter connection remains outside this release.

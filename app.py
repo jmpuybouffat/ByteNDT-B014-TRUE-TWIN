@@ -9,7 +9,8 @@ st.set_page_config(page_title='BYTE NDT — LSB941 C1 — FR / EN', layout='wide
 def publication_document(asset_version: tuple) -> str:
     return build_publication_document()
 
-st.caption('BYTE NDT · LSB941-C1 · INTRADOS → EXTRADOS · 41 positions · FR / EN')
+st.caption('BYTE NDT · LSB941-C1 · INTRADOS → première gorge EXTRADOS · réf. 27,6 mm · 41 positions · FR / EN')
+st.caption('Rejeu UT reconstruit dans les poses mécaniques recalées ; résultats sources conservés, sans nouvelle validation physique. / UT replay reconstructed in registered mechanical poses; source results retained, without a new physical validation.')
 assets_root = Path(__file__).resolve().parent / 'assets'
 asset_version = tuple((f.name, f.stat().st_mtime_ns, f.stat().st_size) for f in sorted(assets_root.iterdir()) if f.is_file())
 

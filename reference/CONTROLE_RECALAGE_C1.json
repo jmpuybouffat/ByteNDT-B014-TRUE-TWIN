@@ -1,0 +1,76 @@
+{
+  "registration_type": "per-shot proper rigid pose reconstruction on first-groove mechanical reference; canonical source results unchanged",
+  "reference_nominal_mm": 27.6,
+  "scale_applied_once": 0.1,
+  "poses": 401,
+  "frames": 41,
+  "max_target_mapping_error_mm": 4.5605713243208615e-14,
+  "max_central_angle_error_deg_interpolated_mesh_normal": 2.336179250050918e-09,
+  "max_contact_step_401_mm": 3.8110232537402937,
+  "detections": [
+    {
+      "edm": "EDM_01",
+      "shot": 41,
+      "source_error_mm_preserved": 2.3959847035005475,
+      "display_detected_xyz": [
+        -4.408148077175547,
+        9.241634273894217,
+        2.9447280361884722
+      ],
+      "local_root_height_mm": 3.4334324495350117,
+      "offset_from_registered_target_mm": 7.25245592470173
+    },
+    {
+      "edm": "EDM_02",
+      "shot": 33,
+      "source_error_mm_preserved": 0.5785079769073483,
+      "display_detected_xyz": [
+        58.143028560313226,
+        54.22168005989065,
+        1.4076151303748148
+      ],
+      "local_root_height_mm": 2.91497986926128,
+      "offset_from_registered_target_mm": 15.23766799113701
+    },
+    {
+      "edm": "EDM_03",
+      "shot": 23,
+      "source_error_mm_preserved": 0.6365349221351413,
+      "display_detected_xyz": [
+        90.01283887435582,
+        110.48066379878695,
+        -2.304295801323896
+      ],
+      "local_root_height_mm": 1.2400661538313498,
+      "offset_from_registered_target_mm": 13.731055892414197
+    },
+    {
+      "edm": "EDM_04",
+      "shot": 10,
+      "source_error_mm_preserved": 0.6597136251502141,
+      "display_detected_xyz": [
+        107.37163551838402,
+        170.48046097081038,
+        -5.055828425710427
+      ],
+      "local_root_height_mm": 0.9324474826296321,
+      "offset_from_registered_target_mm": 7.6556510582376935
+    },
+    {
+      "edm": "EDM_05",
+      "shot": 4,
+      "source_error_mm_preserved": 2.401320312952353,
+      "display_detected_xyz": [
+        110.26081048164568,
+        202.14767551712865,
+        -6.370817200888137
+      ],
+      "local_root_height_mm": 1.0100944495633344,
+      "offset_from_registered_target_mm": 15.810958730798273
+    }
+  ],
+  "source_UT_and_analysis_matrices_unchanged": true,
+  "physical_inspection_revalidated": false,
+  "coherent_gain_rigid_invariance_checks": 425,
+  "max_coherent_gain_difference": 1.3766765505351941e-14
+}

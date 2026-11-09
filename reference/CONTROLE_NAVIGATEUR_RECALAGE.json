@@ -1,0 +1,224 @@
+{
+  "frames": [
+    {
+      "shot": 1,
+      "central_angle": 55.00000000000004,
+      "fieldTriangles": 11706
+    },
+    {
+      "shot": 2,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11740
+    },
+    {
+      "shot": 3,
+      "central_angle": 55.00000000000164,
+      "fieldTriangles": 11736
+    },
+    {
+      "shot": 4,
+      "central_angle": 54.99999999999999,
+      "fieldTriangles": 11728
+    },
+    {
+      "shot": 5,
+      "central_angle": 54.99999999999992,
+      "fieldTriangles": 11706
+    },
+    {
+      "shot": 6,
+      "central_angle": 55.000000000003425,
+      "fieldTriangles": 11682
+    },
+    {
+      "shot": 7,
+      "central_angle": 55.000000000003226,
+      "fieldTriangles": 11660
+    },
+    {
+      "shot": 8,
+      "central_angle": 55.000000000000284,
+      "fieldTriangles": 11684
+    },
+    {
+      "shot": 9,
+      "central_angle": 55.000000000000064,
+      "fieldTriangles": 11726
+    },
+    {
+      "shot": 10,
+      "central_angle": 55.00000000000644,
+      "fieldTriangles": 11686
+    },
+    {
+      "shot": 11,
+      "central_angle": 55.00000000000005,
+      "fieldTriangles": 11652
+    },
+    {
+      "shot": 12,
+      "central_angle": 55.000000000039094,
+      "fieldTriangles": 11674
+    },
+    {
+      "shot": 13,
+      "central_angle": 55.00000000007117,
+      "fieldTriangles": 11660
+    },
+    {
+      "shot": 14,
+      "central_angle": 55.000000000000156,
+      "fieldTriangles": 11668
+    },
+    {
+      "shot": 15,
+      "central_angle": 55,
+      "fieldTriangles": 11656
+    },
+    {
+      "shot": 16,
+      "central_angle": 54.99999999999994,
+      "fieldTriangles": 11670
+    },
+    {
+      "shot": 17,
+      "central_angle": 54.99999999999994,
+      "fieldTriangles": 11652
+    },
+    {
+      "shot": 18,
+      "central_angle": 55.00000000017563,
+      "fieldTriangles": 11712
+    },
+    {
+      "shot": 19,
+      "central_angle": 55.00000000000074,
+      "fieldTriangles": 11758
+    },
+    {
+      "shot": 20,
+      "central_angle": 55.00000000007547,
+      "fieldTriangles": 11664
+    },
+    {
+      "shot": 21,
+      "central_angle": 55.0000000000003,
+      "fieldTriangles": 11682
+    },
+    {
+      "shot": 22,
+      "central_angle": 54.99999999999999,
+      "fieldTriangles": 11704
+    },
+    {
+      "shot": 23,
+      "central_angle": 55.00000000000004,
+      "fieldTriangles": 11728
+    },
+    {
+      "shot": 24,
+      "central_angle": 55.00000000000002,
+      "fieldTriangles": 11740
+    },
+    {
+      "shot": 25,
+      "central_angle": 55.000000000000014,
+      "fieldTriangles": 11730
+    },
+    {
+      "shot": 26,
+      "central_angle": 55.00000000022901,
+      "fieldTriangles": 11702
+    },
+    {
+      "shot": 27,
+      "central_angle": 54.999999999996554,
+      "fieldTriangles": 11690
+    },
+    {
+      "shot": 28,
+      "central_angle": 55.00000000000002,
+      "fieldTriangles": 11678
+    },
+    {
+      "shot": 29,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11690
+    },
+    {
+      "shot": 30,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11702
+    },
+    {
+      "shot": 31,
+      "central_angle": 55.00000000014914,
+      "fieldTriangles": 11718
+    },
+    {
+      "shot": 32,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11724
+    },
+    {
+      "shot": 33,
+      "central_angle": 55.00000000000006,
+      "fieldTriangles": 11736
+    },
+    {
+      "shot": 34,
+      "central_angle": 55.00000000233618,
+      "fieldTriangles": 11726
+    },
+    {
+      "shot": 35,
+      "central_angle": 55.00000000000101,
+      "fieldTriangles": 11676
+    },
+    {
+      "shot": 36,
+      "central_angle": 55.00000000036924,
+      "fieldTriangles": 11672
+    },
+    {
+      "shot": 37,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11734
+    },
+    {
+      "shot": 38,
+      "central_angle": 54.999999999994316,
+      "fieldTriangles": 11700
+    },
+    {
+      "shot": 39,
+      "central_angle": 54.999999999999986,
+      "fieldTriangles": 11674
+    },
+    {
+      "shot": 40,
+      "central_angle": 55.00000000000054,
+      "fieldTriangles": 11654
+    },
+    {
+      "shot": 41,
+      "central_angle": 55.000000000005684,
+      "fieldTriangles": 11664
+    }
+  ],
+  "continuous_motion": true,
+  "FR_EN": true,
+  "beam3D": true,
+  "sectorial_skew": true,
+  "TFM": true,
+  "voxel": true,
+  "report": true,
+  "sourceAscanFSHUnchanged": true,
+  "errors": [],
+  "final_scene_smoke": {
+    "errors": [],
+    "root_opaque": true,
+    "nominal_central_angle_55": true,
+    "first_groove_guide_points": 410
+  }
+}
