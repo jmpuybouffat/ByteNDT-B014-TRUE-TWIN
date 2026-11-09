@@ -2,3 +2,5 @@ assets/** -text
 *.py text eol=lf
 *.md text eol=lf
 reference/*.json text eol=lf
+
+*.pdf binary

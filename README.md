@@ -8,7 +8,7 @@ Bilingual C1 publication replay in the three-blade model: PA motion, A-scan, pro
 
 | Élément / Item | Référence / Reference |
 | --- | --- |
-| Cas / Case | **C1 — PA sur EXTRADOS → gorge INTRADOS** |
+| Cas / Case | **C1 — PA sur INTRADOS → gorge EXTRADOS** |
 | Positions | **41** |
 | Matrice / Array | **8 × 8 — 64 éléments / elements** |
 | Lois focales / Focal laws | **3 485** |
@@ -99,3 +99,11 @@ Le PA affiché est ancré sur la peau du maillage, séparément de l'origine UT 
 ### Coupe cible et glissement continu
 
 Le plan affiché est vertical et contient le tir nominal. En extrémité, la face de bout est distinguée d'un profil réel voisin à 10 mm, explicitement hors plan du tir. La lecture glisse en continu sur la peau ; les 41 acquisitions restent discrètes. Les réponses UT sont inchangées. Le raccordement du champ physique B006 reste à finaliser ; voir `reference/AUDIT_REFERENCE_CHAMP_C1.md`. Aucune enveloppe illustrative n'est présentée comme un champ calculé.
+
+## Couverture 3D calculée / Computed 3D coverage
+
+Les 41 volumes utilisent les retards des 85 lois successives et les 64 éléments C1, sans modifier les résultats UT. L'axe nominal est à 55°. La couverture affichée est le maximum du gain de cohérence sur les lois, pas un faisceau unique émis simultanément. Surfaces -6/-12 dB (référence fixe G=1), coupes sectorielle et skew à échelle millimétrique uniforme. La grille de calcul a un pas de 2 à 2,47 mm. Les indications cumulées sont distinctes du champ au tir courant.
+
+Each of the 41 volumes uses the 85 sequential delay laws and 64 original C1 elements, preserving UT results. Nominal axis: 55 degrees. Coverage is maximum coherent gain across laws, not a single simultaneously emitted beam. Fixed-reference -6/-12 dB surfaces and equal-scale sectorial/skew slices are available. Grid spacing is 2 to 2.47 mm. Cumulative indications are distinct from the current-shot field.
+
+This is normalized source-model coherent gain, not calibrated pressure, %FSH or a full Green/Kirchhoff/Born/GTD backscatter calculation. See `reference/CONTROLE_VOLUME_CALCULE.json` for numerical checks and `reference/AUDIT_REFERENCE_CHAMP_C1.md` for model scope. Between acquisitions the last computed volume is transported with the PA; intermediate fields are not recomputed.

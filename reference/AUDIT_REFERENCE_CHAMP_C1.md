@@ -20,3 +20,13 @@ La banque publique PA1/C1 examinée affiche 70 stations et 176 directions par st
 - Soudure P03 : https://byte-ndt-soudure.streamlit.app/ — module scalaire à ouverture finie, optique physique et Born faible, avec limitations explicites dans `plate_physics.js`.
 
 Aucune enveloppe illustrative n'est présentée comme un résultat Green/Kirchhoff/Born/GTD. Il faut raccorder un même jeu de géométrie, d'ouvertures, de lois, de réponses et de champs avant de déclarer cette étape physique complète.
+
+## Volume de cohérence C1 ajouté
+
+Le volume est maintenant calculé aux 41 positions avec les 85 lois et les 64 éléments originaux : maximum du gain de cohérence complexe source, référence fixe G=1, 10 log10(G). Les portes angulaires de 14 degrés et de distance de 130 mm du moteur source sont conservées. Deux isosurfaces -6/-12 dB et deux coupes orthogonales sont disponibles. Grille 50×53×43, pas 2 à 2,47 mm, échantillonnage affiché à 0,25 dB. Les maillages sont quantifiés à 0,01 mm ; cela ne constitue pas la résolution acoustique.
+
+123 contrôles non nuls contre la fonction source donnent un écart maximal de 2,78e-14 en gain. Les cinq indications détectées sont dans la couverture à -6 dB à leur propre tir, sans déplacer leurs coordonnées. Ce contrôle utilise leurs coordonnées exactes et le noyau original, indépendamment de la grille affichée.
+
+Ce volume normalisé ne comporte pas de pression calibrée, de réfraction explicite dans le sabot ou de rétrodiffusion complète. Il ne remplace pas le raccordement B006 décrit ci-dessus. Pendant le glissement entre tirs, le volume du dernier tir est transporté ; aucun calcul intermédiaire supplémentaire n'est revendiqué. Les amplitudes UT/FSH, TFM, voxel et résultats de détection restent inchangés.
+
+Les surfaces représentent une couverture maximale sur des lois successives, pas une émission simultanée de toutes les lois. Le calcul de cohérence suppose la propagation dans le milieu homogène du moteur source ; la surface volumique n’est pas découpée aux limites du métal et ne simule pas les interfaces du sabot.

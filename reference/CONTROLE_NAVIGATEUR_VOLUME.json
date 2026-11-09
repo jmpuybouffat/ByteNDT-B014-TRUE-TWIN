@@ -1,0 +1,144 @@
+{
+  "states": [
+    {
+      "shot": 1,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        58.996188293930004,
+        236.964400725735,
+        27.329305619470457
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11706,
+      "vertices": 6007,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    },
+    {
+      "shot": 4,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        66.05382779217047,
+        221.82213083078926,
+        32.91962009216104
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11728,
+      "vertices": 6016,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    },
+    {
+      "shot": 10,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        74.6089481883395,
+        188.15332068733483,
+        37.50867156352427
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11686,
+      "vertices": 5985,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    },
+    {
+      "shot": 23,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        60.31808115845167,
+        114.39705628370858,
+        35.068551544012195
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11728,
+      "vertices": 6016,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    },
+    {
+      "shot": 33,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        23.23878391028783,
+        71.2071340984687,
+        46.1169570269592
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11736,
+      "vertices": 6020,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    },
+    {
+      "shot": 41,
+      "elements": 64,
+      "laws": 85,
+      "shape": [
+        50,
+        53,
+        43
+      ],
+      "level_db": -6,
+      "frame_origin": [
+        -20.09470495870749,
+        56.48699900604138,
+        38.816464513899746
+      ],
+      "quantity": "C1 coherent-array sensitivity, max of 85 original laws within original 14-degree angular acceptance and 130mm range; not calibrated pressure",
+      "db_reference": "fixed G=1",
+      "triangles": 11664,
+      "vertices": 5969,
+      "gaussian_envelope_drawn": false,
+      "scattering_recomputed": false
+    }
+  ],
+  "errors": [],
+  "continuousMotion": true,
+  "levelSelection": true,
+  "sourceDataUnchanged": true,
+  "FR_EN": true,
+  "TFM": true,
+  "voxel": true,
+  "report": true
+}

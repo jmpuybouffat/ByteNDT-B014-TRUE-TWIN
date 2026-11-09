@@ -1,0 +1,58 @@
+{
+  "source_function": "B014_TRUE_TWIN_LIVING_ENGINEERING_FINAL.py::vectorized_coherent_gain",
+  "source_delays_csv_sha256": "9646a9962cbc233c7b1f6b3587b19a15048ddfd05b28411997fa20b99a0aa06c",
+  "positions": 41,
+  "laws_per_position": 85,
+  "elements": 64,
+  "shape": [
+    50,
+    53,
+    43
+  ],
+  "grid_step_mm": [
+    2.4693877551020407,
+    2.0,
+    2.0
+  ],
+  "maximum_source_function_difference": 2.7700064464397656e-14,
+  "voxel_count": 113950,
+  "no_hand_drawn_envelope": true,
+  "scattering_models_recomputed": false,
+  "quantity": "coherent-array sensitivity within original source acceptance, not calibrated pressure",
+  "viewer_quantization_db": 0.25,
+  "nonzero_original_function_checks": 123,
+  "maximum_float32_db_storage_error": 4.720169464178525e-07,
+  "matched_detections": [
+    {
+      "edm": "EDM_01",
+      "shot": 41,
+      "exact_coherent_gain_db": -1.0845852746825623e-08,
+      "inside_minus6_coherent_volume": true
+    },
+    {
+      "edm": "EDM_02",
+      "shot": 33,
+      "exact_coherent_gain_db": -1.758655901279332e-06,
+      "inside_minus6_coherent_volume": true
+    },
+    {
+      "edm": "EDM_03",
+      "shot": 23,
+      "exact_coherent_gain_db": -1.1843273041654064e-08,
+      "inside_minus6_coherent_volume": true
+    },
+    {
+      "edm": "EDM_04",
+      "shot": 10,
+      "exact_coherent_gain_db": -3.112129934289869e-05,
+      "inside_minus6_coherent_volume": true
+    },
+    {
+      "edm": "EDM_05",
+      "shot": 4,
+      "exact_coherent_gain_db": -0.0002490687296741419,
+      "inside_minus6_coherent_volume": true
+    }
+  ],
+  "mesh_position_quantization_mm": 0.01
+}
