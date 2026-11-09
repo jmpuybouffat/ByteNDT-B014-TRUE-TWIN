@@ -1,0 +1,9 @@
+{
+  "real_animation_samples": 38,
+  "start_position": 35,
+  "end_position": 41,
+  "monotonic_playback": true,
+  "final_acquired_shot": 41,
+  "maximum_interpolated_incidence_error_deg": 0.011956958093151115,
+  "errors": []
+}

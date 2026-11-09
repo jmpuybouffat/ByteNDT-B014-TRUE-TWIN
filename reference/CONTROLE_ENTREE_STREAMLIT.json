@@ -1,10 +1,11 @@
 {
   "app_entry": "app.py",
-  "release": "C1-27_6-GORGE1-R2",
+  "release": "C1-27_6-GORGE1-R3",
   "app_exceptions": 0,
   "release_marker_visible": true,
   "current_scene_embedded": true,
-  "iframe_document_bytes": 63326981,
+  "iframe_document_bytes": 63844557,
   "document_cache_removed": true,
-  "contact_paths_and_acoustic_geometry_unchanged": true
+  "late_mechanical_trajectory_updated": true,
+  "source_UT_matrices_unchanged": true
 }

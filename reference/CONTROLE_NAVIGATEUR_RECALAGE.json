@@ -147,57 +147,57 @@
     },
     {
       "shot": 30,
-      "central_angle": 54.999999999999986,
+      "central_angle": 55.000000000000846,
       "fieldTriangles": 11702
     },
     {
       "shot": 31,
-      "central_angle": 55.00000000014914,
+      "central_angle": 55.000000000000455,
       "fieldTriangles": 11718
     },
     {
       "shot": 32,
-      "central_angle": 54.999999999999986,
+      "central_angle": 55.0000000000003,
       "fieldTriangles": 11724
     },
     {
       "shot": 33,
-      "central_angle": 55.00000000000006,
+      "central_angle": 55.000000000000064,
       "fieldTriangles": 11736
     },
     {
       "shot": 34,
-      "central_angle": 55.00000000233618,
+      "central_angle": 55.00000000000008,
       "fieldTriangles": 11726
     },
     {
       "shot": 35,
-      "central_angle": 55.00000000000101,
+      "central_angle": 55.000000000000185,
       "fieldTriangles": 11676
     },
     {
       "shot": 36,
-      "central_angle": 55.00000000036924,
+      "central_angle": 54.99999999999999,
       "fieldTriangles": 11672
     },
     {
       "shot": 37,
-      "central_angle": 54.999999999999986,
+      "central_angle": 55.000000000000064,
       "fieldTriangles": 11734
     },
     {
       "shot": 38,
-      "central_angle": 54.999999999994316,
+      "central_angle": 55.000000000000114,
       "fieldTriangles": 11700
     },
     {
       "shot": 39,
-      "central_angle": 54.999999999999986,
+      "central_angle": 55.00000000000026,
       "fieldTriangles": 11674
     },
     {
       "shot": 40,
-      "central_angle": 55.00000000000054,
+      "central_angle": 55.00000000000102,
       "fieldTriangles": 11654
     },
     {
@@ -215,10 +215,5 @@
   "report": true,
   "sourceAscanFSHUnchanged": true,
   "errors": [],
-  "final_scene_smoke": {
-    "errors": [],
-    "root_opaque": true,
-    "nominal_central_angle_55": true,
-    "first_groove_guide_points": 410
-  }
+  "release": "R3"
 }

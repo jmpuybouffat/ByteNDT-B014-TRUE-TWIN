@@ -5,9 +5,9 @@ from publication_view import build_publication_document
 
 st.set_page_config(page_title='BYTE NDT — LSB941 C1 — FR / EN', layout='wide', initial_sidebar_state='collapsed')
 
-RELEASE_ID = 'C1-27_6-GORGE1-R2'
+RELEASE_ID = 'C1-27_6-GORGE1-R3'
 
-st.info('C1 · Première gorge · 27,6 mm · R2')
+st.info('C1 · Première gorge · 27,6 mm · R3')
 st.caption('BYTE NDT · LSB941-C1 · INTRADOS → première gorge EXTRADOS · réf. 27,6 mm · 41 positions · FR / EN')
 st.caption('Rejeu UT reconstruit dans les poses mécaniques recalées ; résultats sources conservés, sans nouvelle validation physique. / UT replay reconstructed in registered mechanical poses; source results retained, without a new physical validation.')
 assets_root = Path(__file__).resolve().parent / 'assets'

@@ -1,0 +1,22 @@
+{
+  "release": "R3",
+  "source_results_and_matrices_unchanged": true,
+  "red_mechanical_groove_guide_exactly_unchanged": true,
+  "first_281_contacts_and_final_contact_exactly_unchanged": true,
+  "late_contacts_updated": true,
+  "max_contact_displacement_R2_mm": 10.834673417176548,
+  "maximum_nominal_focus_fairing_mm": 1.9382240612493724,
+  "late_reverse_turns_R2": 2,
+  "late_reverse_turns_R3": 0,
+  "max_late_contact_step_R2_mm": 3.8110232537402937,
+  "max_late_contact_step_R3_mm": 0.989849194548838,
+  "maximum_actual_triangle_plane_error_mm": 5.813066219471453e-12,
+  "maximum_independent_normal_error": 3.3977316963543514e-14,
+  "maximum_independent_central_angle_error_deg": 5.624229970635497e-10,
+  "coherent_kernel_checks": 425,
+  "maximum_coherent_gain_difference": 1.3766765505351941e-14,
+  "scope": "Mechanical fairing and registered replay only; not new physical NDT validation",
+  "user_reported_maximum_angular_deviation_deg": 2.0,
+  "maximum_interpolated_central_angle_error_deg": 0.040545742422452236,
+  "within_user_angular_limit": true
+}

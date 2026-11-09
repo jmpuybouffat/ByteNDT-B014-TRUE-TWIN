@@ -119,3 +119,11 @@ The red curve follows the actual first extrados groove. PA contact is on the mes
 ## R2 — orientation du support
 
 Le support suit maintenant les normales par transport à rotation minimale. Les retournements artificiels du repère, dus à la dérivation d’un trajet comportant de petites inversions locales, sont supprimés. Sur401poses, rotation maximale entre échantillons:170,9° avant,1,77° après. Contacts, normales, première gorge, matrices de recalage acoustique et rayons restent exactement inchangés. Le CSV distingue tangente réelle du trajet et axes du support. Il ne s’agit pas d’une nouvelle trajectoire mécanique ni d’un nouveau calcul UT.
+
+## R3 — fin de parcours lissée
+
+La fin de trajectoire mécanique est régularisée sur la peau, avec une interpolation cubique sans dépassement et projection sur le maillage. Les401poses mécaniques et leurs R/T sont actualisés ; le début et l’arrivée restent fixés. Les cibles nominales sont régularisées dans la même première gorge (ajustement maximal1,94mm), sans changer le guide rouge. Les retours arrière de fin de parcours sont supprimés. Les matrices UT, amplitudes, lois, TFM et voxel sources restent identiques.
+
+1601contacts interpolés : erreur maximale au plan des triangles1,14e-14mm ; écart interpolé à55° inférieur0,05°. Limite angulaire de2° indiquée par l’utilisateur, sans attribution à une norme non fournie. Le mouvement affiché utilise la distance parcourue et un démarrage/arrivée progressifs ; il ne s’agit pas d’un enregistrement de vitesse d’acquisition. STEP/DXF du contact, CSV401poses et CSV1601contacts sont actualisés pour étude du guidage.
+
+The late mechanical path is faired on the original mesh. Per-pose reconstruction transforms are updated; original UT matrices and processing are unchanged. Shape-preserving cubic interpolation is projected onto the skin; playback has smooth start and arrival over arc distance. This is mechanical reconstruction of a replay, not new physical inspection validation or a manufactured-slot release.

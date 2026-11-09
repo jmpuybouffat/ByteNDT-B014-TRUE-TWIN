@@ -15,5 +15,6 @@
   "contact_points_origins_targets_normals_and_incidence_exactly_unchanged": true,
   "source_85_rays_per_position_exactly_unchanged": true,
   "source_processing_or_physics_changed": false,
-  "slot_curve_and_sections_and_acoustic_pose_registrations_unchanged": true
+  "slot_curve_and_sections_and_acoustic_pose_registrations_unchanged": true,
+  "historical_scope": "R2 orientation-only correction; R3 subsequently updates the late contact trajectory"
 }

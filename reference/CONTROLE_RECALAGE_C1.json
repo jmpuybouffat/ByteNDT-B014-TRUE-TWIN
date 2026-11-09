@@ -5,8 +5,8 @@
   "poses": 401,
   "frames": 41,
   "max_target_mapping_error_mm": 4.5605713243208615e-14,
-  "max_central_angle_error_deg_interpolated_mesh_normal": 2.336179250050918e-09,
-  "max_contact_step_401_mm": 3.8110232537402937,
+  "max_central_angle_error_deg_interpolated_mesh_normal": 2.290008183081227e-10,
+  "max_contact_step_401_mm": 1.5523494276977963,
   "detections": [
     {
       "edm": "EDM_01",
@@ -25,12 +25,12 @@
       "shot": 33,
       "source_error_mm_preserved": 0.5785079769073483,
       "display_detected_xyz": [
-        58.143028560313226,
-        54.22168005989065,
-        1.4076151303748148
+        55.60818154683162,
+        57.28732269913119,
+        1.3920221756979103
       ],
-      "local_root_height_mm": 2.91497986926128,
-      "offset_from_registered_target_mm": 15.23766799113701
+      "local_root_height_mm": 3.0802581704778014,
+      "offset_from_registered_target_mm": 15.237667991137005
     },
     {
       "edm": "EDM_03",
@@ -70,7 +70,5 @@
     }
   ],
   "source_UT_and_analysis_matrices_unchanged": true,
-  "physical_inspection_revalidated": false,
-  "coherent_gain_rigid_invariance_checks": 425,
-  "max_coherent_gain_difference": 1.3766765505351941e-14
+  "physical_inspection_revalidated": false
 }
