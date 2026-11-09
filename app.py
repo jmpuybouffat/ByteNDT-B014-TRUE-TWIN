@@ -5,17 +5,26 @@ from publication_view import build_publication_document
 
 st.set_page_config(page_title='BYTE NDT — LSB941 C1 — FR / EN', layout='wide', initial_sidebar_state='collapsed')
 
-@st.cache_resource(show_spinner=False)
-def publication_document(asset_version: tuple) -> str:
-    return build_publication_document()
+RELEASE_ID = 'C1-27_6-GORGE1-R1'
 
+st.info('C1 · Première gorge · 27,6 mm · R1')
 st.caption('BYTE NDT · LSB941-C1 · INTRADOS → première gorge EXTRADOS · réf. 27,6 mm · 41 positions · FR / EN')
 st.caption('Rejeu UT reconstruit dans les poses mécaniques recalées ; résultats sources conservés, sans nouvelle validation physique. / UT replay reconstructed in registered mechanical poses; source results retained, without a new physical validation.')
 assets_root = Path(__file__).resolve().parent / 'assets'
-asset_version = tuple((f.name, f.stat().st_mtime_ns, f.stat().st_size) for f in sorted(assets_root.iterdir()) if f.is_file())
+# Check the actual deployment files before building the viewer. Never reuse an
+# HTML document cached by a previous server revision.
+import hashlib
+import json
+manifest = json.loads((Path(__file__).resolve().parent / 'reference' / 'MANIFESTE_ASSETS_PUBLIES.json').read_text())
+mismatches = [name for name, expected in manifest.items()
+              if not (assets_root / name).is_file()
+              or hashlib.sha256((assets_root / name).read_bytes()).hexdigest() != expected]
+if mismatches:
+    st.error('Les fichiers de cette version sont incomplets. Redémarrer l’application dans Manage app → Reboot. / Incomplete release files; reboot the app.')
+    st.stop()
 
 with st.spinner('Chargement du cycle C1 / Loading the C1 replay…'):
-    st.iframe(publication_document(asset_version), height="content", alt="C1 — cycle synchronisé / synchronized replay — FR / EN")
+    st.iframe(build_publication_document(assets_root), height="content", alt="C1 — cycle synchronisé / synchronized replay — FR / EN")
 
 with st.expander('Version actuelle et notice / Current version and guide'):
     root = Path(__file__).resolve().parent
