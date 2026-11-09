@@ -9,8 +9,5 @@
     25
   ],
   "UT_source_arrays": "unchanged",
-  "scope": "graphic contact surface and section; not manufactured wedge profile or scanner clearance validation",
-  "maximum_contact_plane_error_mm": 9.467323719951004e-15,
-  "step_valid": true,
-  "step_edges": 400
+  "scope": "graphic contact surface and section; not manufactured wedge profile or scanner clearance validation"
 }

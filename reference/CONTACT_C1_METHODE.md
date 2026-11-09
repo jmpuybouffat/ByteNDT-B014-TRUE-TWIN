@@ -13,3 +13,11 @@ La tache utilise exclusivement les échantillons du tir courant du nuage source,
 La lecture anime d'abord le déplacement sur la surface, puis affiche les résultats à l'arrivée au prochain tir. Les boutons de navigation directe vont directement à une position d'acquisition.
 
 Les exports pour le slot sont des données d'étude : CSV de 401 positions/normales/tangentes, polyligne discrétisée STEP/DXF, et 41 profils plan/triangles DXF. La section DXF conserve les coordonnées 3D, avec un calque par tir. Les offsets de guidage, le rayon du suiveur, les jeux, la retenue et les collisions doivent être définis avant fabrication. Aucun slot fabriquable n'est qualifié par cette vue.
+
+## Correction du plan cible et mouvement continu
+
+La coupe affichée est maintenant verticale (Z global dans le plan) et contient la direction nominale du tir. Le corps PA affiché est coupé dans le même plan. Les contours ne sont ni retournés ni redessinés. En fin de parcours, le plan traverse une face d'extrémité de la racine ; l'encadré montre explicitement un profil réel voisin décalé de 10 mm le long du parcours, hors plan du tir. Une indication projetée depuis un autre plan est signalée « proj. ».
+
+La lecture utilise un mouvement continu. À chaque image, le contact est réintersecté avec le maillage. Les acquisitions d'origine restent les 41 états discrets, mis à jour au franchissement de leur position. L'ancien arrêt imposé entre deux acquisitions est supprimé.
+
+Aucune enveloppe colorée illustrative n'est livrée comme champ acoustique. Le raccordement au moteur physique retrouvé B006 reste distinct des corrections géométriques ; voir AUDIT_REFERENCE_CHAMP_C1.md.

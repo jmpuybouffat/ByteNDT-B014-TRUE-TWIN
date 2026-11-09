@@ -1,0 +1,8 @@
+{
+  "vertical_target_sections": 41,
+  "segments": 12594,
+  "maximum_plane_residual_mm": 1.7945761019541332e-14,
+  "nominal_beam_in_plane": true,
+  "end_reference_profile_offset_along_path_mm": -10,
+  "mesh_contours_unchanged": true
+}

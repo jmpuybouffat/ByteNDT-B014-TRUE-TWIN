@@ -95,3 +95,7 @@ La rubrique mécanique de la rupture indique explicitement le module manquant : 
 ## Contact et coupe C1 — 09 novembre 2026
 
 Le PA affiché est ancré sur la peau du maillage, séparément de l'origine UT virtuelle. Lecture anime 401 poses de surface avant d'afficher les acquisitions aux 41 positions. La coupe utilise les triangles réels de la racine ; les échantillons du tir courant et les directions UT sources y sont synchronisés. Le bouton 3D montre le contact avec une coupe visuelle des voisines. Les données numériques initiales sont inchangées. Le paquet unique `downloads/C1_FINAL_FR_EN.zip` contient aussi CSV/DXF/STEP d'étude du slot. Voir `reference/CONTACT_C1_METHODE.md` pour la méthode et ses limites mécaniques.
+
+### Coupe cible et glissement continu
+
+Le plan affiché est vertical et contient le tir nominal. En extrémité, la face de bout est distinguée d'un profil réel voisin à 10 mm, explicitement hors plan du tir. La lecture glisse en continu sur la peau ; les 41 acquisitions restent discrètes. Les réponses UT sont inchangées. Le raccordement du champ physique B006 reste à finaliser ; voir `reference/AUDIT_REFERENCE_CHAMP_C1.md`. Aucune enveloppe illustrative n'est présentée comme un champ calculé.
